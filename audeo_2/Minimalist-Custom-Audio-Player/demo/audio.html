@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Minimalist Custom Audio Player Example</title>
+    <title>Audio Player</title>
 </head>
 <body>
 
@@ -22,6 +22,7 @@
         background-color: #000000;
         height: 75px;
         border-radius: 100px;
+        margin-top: 45vh;
     }
    .ppq-audio-player .play-pause-btn .play-pause-icon {
         position: absolute;
@@ -52,11 +53,9 @@
 </style>
 
 
-    <div class="container">
-        <audio preload="auto" src="BITTUEV_Братик_не_надо_в_ее_глазах_ты_не_увидишь_свою_правду.mp3"></audio>
-    </div>
-
-     
+<div class="container">
+    <audio preload="auto" src="BITTUEV_Братик_не_надо_в_ее_глазах_ты_не_увидишь_свою_правду.mp3"></audio>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -65,7 +64,6 @@
 <script>
     $('audio').initAudioPlayer();
 </script>
-
 
 </body>
 
